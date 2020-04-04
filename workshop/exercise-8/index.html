@@ -1,1 +1,60 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registration form</h1>
+    <form action="">
+      <label for="uname" style="font-size: 25px;">Username</label>
+      <input type="text" id="uname" name="uname" style="font-size: 20px;" />
+      <label for="pass" style="font-size: 25px;">password</label>
+      <input type="text" id="pass" name="pass" style="font-size: 20px;" /><br />
+      <label for="email" style="font-size: 25px;">Email</label>
+      <input type="text" id="email" name="email" style="font-size: 20px;" />
+    </form>
+    <form action="">
+      <p style="margin-bottom: 0px;">Which taxi do you require?</p>
+      <input type="radio" id="car" name="car" value="car" />
+      <label for="car">Car</label><br />
+      <input type="radio" id="Van" name="Van" value="Van" />
+      <label for="Van">Van</label><br />
+      <input type="radio" id="Tuk_Tuk" name="Tuk_Tuk" value="Tuk_Tuk" />
+      <label for="Tuk_Tuk">Tuk Tuk</label>
+      <p style="margin-bottom: 0px; margin-top: 0px;">
+        Extras
+      </p>
+      <input
+        type="checkbox"
+        id="baby_seat"
+        name="baby_seat"
+        value="baby_seat"
+      />
+      <label for="baby_seat">baby seat</label><br />
+      <input
+        type="checkbox"
+        id="wheel_chair_access"
+        name="wheel_chair_access"
+        value="Car"
+      />
+      <label for="wheel_chair_access">Wheel Chair Access</label><br />
+      <input
+        type="checkbox"
+        id="stock_tip"
+        name="stock_tip"
+        value="stock_tip"
+      />
+      <label for="stock_tip">Stock Tip</label><br />
+      <label for="cars">Pickup</label>
+      <select id="cars">
+        <option value="select_one">Select One</option> </select
+      ><br />
+      <label for="special">Special</label>
+      <textarea id="special" rows="4" cols="50"></textarea>
+    </form>
+    <button>Submit</button>
+  </body>
+</html>
